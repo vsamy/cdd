@@ -6,7 +6,8 @@ include(Package_Definition NO_POLICY_SCOPE)
 PROJECT(cdd)
 
 declare_PID_Package(	AUTHOR 		vsamy
-			YEAR 		2017 
+			 ADDRESS git@github.com:vsamy/cdd.git
+	 YEAR 		2017 
 			LICENSE 	CeCILL
 			DESCRIPTION 	TODO: input a short description of package cdd utility here
 		)
