@@ -4,7 +4,7 @@ Overview
 
 This is a polytope library. Forked from Fukuda's library: https://www.inf.ethz.ch/personal/fukudak/cdd_home/
 
-The license that applies to the whole package content is **CeCILL**. Please look at the license.txt file at the root of this repository.
+The license that applies to the whole package content is **CeCILL-C**. Please look at the license.txt file at the root of this repository.
 
 Installation and Usage
 =======================
