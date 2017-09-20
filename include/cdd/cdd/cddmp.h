@@ -28,7 +28,7 @@
 /**********************************/
 
 #if defined GMPRATIONAL
- #include "gmp.h"
+ #include "cdd/gmp.h"
  #define dd_ARITHMETIC "GMP rational"
  #define dd_init(a)              mpq_init(a)     
  #define dd_clear(a)             mpq_clear(a)     
@@ -47,7 +47,7 @@
     /* returns nonzero if equal.  much faster than mpq_cmp. */
  #define dd_get_d(a)             mpq_get_d(a)     
 #elif defined GMPFLOAT
- #include "gmp.h"
+ #include "cdd/gmp.h"
  #define dd_ARITHMETIC "GMP float"
  #define dd_init(a)              mpf_init(a)     
  #define dd_clear(a)             mpf_clear(a)     

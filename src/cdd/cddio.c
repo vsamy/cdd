@@ -10,8 +10,8 @@
    the manual cddlibman.tex for detail.
 */
 
-#include "setoper.h"  /* set operation library header (Ver. June 1, 2000 or later) */
-#include "cdd.h"
+#include "cdd/setoper.h"  /* set operation library header (Ver. June 1, 2000 or later) */
+#include "cdd/cdd.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

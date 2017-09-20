@@ -15,16 +15,16 @@
 #endif  /* __CDD_H */
 
 #ifndef  __CDDMP_H
-#include "cddmp.h"
+#include "cdd/cddmp.h"
 #endif  /* __CDDMP_H */
 
 #ifndef  __CDDTYPES_H
-#include "cddtypes.h"
+#include "cdd/cddtypes.h"
 #endif  /* __CDDTYPES_H */
 
 #ifdef GMPRATIONAL
 #ifndef __CDD_HF
-#include "cdd_f.h"
+#include "cdd/cdd_f.h"
 #endif
 #endif
 
