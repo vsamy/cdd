@@ -1416,7 +1416,7 @@ dd_boolean dd_InputAdjacentQ(dd_PolyhedraPtr poly,
     goto _L99;
   }
   if (set_member(i1, poly->Adom) || set_member(i2, poly->Adom)){
-  // dominant inequality is considered adjacencent to all others.
+  /* dominant inequality is considered adjacencent to all others. */
     adj=dd_TRUE;
     goto _L99;
   }
