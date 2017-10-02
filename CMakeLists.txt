@@ -6,13 +6,14 @@ include(Package_Definition NO_POLICY_SCOPE)
 PROJECT(cdd)
 
 declare_PID_Package(	
-	AUTHOR 		vsamy
-	INSTITUTION LIRMM
-	MAIL 		vincent.samy@lirmm.fr
-	ADDRESS 	git@github.com:vsamy/cdd.git
-	YEAR 		2017 
-	LICENSE 	GNUGPL
-	DESCRIPTION "This is a polytope library. Forked from Fukuda's library: https://www.inf.ethz.ch/personal/fukudak/cdd_home/"
+	AUTHOR 			vsamy
+	INSTITUTION 	LIRMM
+	MAIL 			vincent.samy@lirmm.fr
+	ADDRESS 		git@github.com:vsamy/cdd.git
+	PUBLIC_ADDRESS	https://github.com/vsamy/cdd.git
+	YEAR 			2017 
+	LICENSE 		GNUGPL
+	DESCRIPTION 	"This is a polytope library. Forked from Fukuda's library: https://www.inf.ethz.ch/personal/fukudak/cdd_home/"
 )
 
 set_PID_Package_Version(0 94 3)
