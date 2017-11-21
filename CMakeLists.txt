@@ -16,7 +16,7 @@ declare_PID_Package(
 	DESCRIPTION 	"This is a polytope library. Forked from Fukuda's library: https://www.inf.ethz.ch/personal/fukudak/cdd_home/"
 )
 
-set_PID_Package_Version(0 94 4)
+set_PID_Package_Version(0 95 0)
 
 #now finding packages
 
