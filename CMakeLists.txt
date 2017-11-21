@@ -8,7 +8,7 @@ PROJECT(cdd)
 declare_PID_Package(	
 	AUTHOR 			vsamy
 	INSTITUTION 	LIRMM
-	MAIL 			vincent.samy@lirmm.fr
+	MAIL 			vsamy@outlook.fr
 	ADDRESS 		git@github.com:vsamy/cdd.git
 	PUBLIC_ADDRESS	https://github.com/vsamy/cdd.git
 	YEAR 			2017 
